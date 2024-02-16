@@ -34,7 +34,8 @@ router.get("/instructor/:_instructor_id", (req, res) => {
 
   router.get("/findByName/:name", (req, res)=>{
     let {name} = req.params;
-    Course.find({title:name}).populate("instructor",[
+    let regex = new RegExp(name, 'i');
+    Course.find({title:regex}).populate("instructor",[
         "username",
         "email"
     ]).then((course)=>{
