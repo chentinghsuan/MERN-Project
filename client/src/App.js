@@ -33,11 +33,15 @@ function App(){
                                 setCurrentUser={setCurrentUser}/>} /> 
         <Route path="/enroll" element={<EnrollComponent 
                                 currentUser={currentUser}
-                                setCurrentUser={setCurrentUser}/>} />      
+                                setCurrentUser={setCurrentUser}/>} />     
+
+         
         
       </Routes>
         
-      
+      <footer className="pt-3 mt-4 text-muted border-top" style={{ textAlign: 'center' }}>
+            &copy; 2024
+      </footer>
     </div>
   );
 }

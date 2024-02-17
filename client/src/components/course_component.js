@@ -88,6 +88,7 @@ const CourseComponent = (props) => {
         )
       }
       
+      
     </div>
   )
 }
