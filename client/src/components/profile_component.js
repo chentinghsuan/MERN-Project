@@ -27,6 +27,7 @@ const ProfileComponent = (props) => {
                 </p>
             </div>
         }
+         
     </div>
     )
 };

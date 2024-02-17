@@ -86,6 +86,7 @@ const EnrollComponent = (props) => {
           ))}
         </div>
       )}
+      
     </div>
   )
 }

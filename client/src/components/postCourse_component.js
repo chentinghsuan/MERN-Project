@@ -95,6 +95,7 @@ const PostCourseComponent= (props) =>{
           )}
         </div>
       )}
+      
     </div>
   );
 }

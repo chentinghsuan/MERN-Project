@@ -8,13 +8,16 @@ const HomeComponent = () => {
           <div className="container-fluid py-5">
             <h1 className="display-5 fw-bold">Learning System</h1>
             <p className="col-md-8 fs-4">
-              This system is using React.js as front-end framework, and Node.js,
-              MongoDB as backend server. This kind of project is called MERN
-              project, which is one of the most popular way to create modern
-              websites.
+              此作品由MERN組成
+              <br />
+              Mongo、Express.js、React.js、Node.js
+              <br />
+              將來預計新增購物車功能, 並用MySql實作
+              <br />
+              登入時role請選擇instructor or student
             </p>
             <button className="btn btn-primary btn-lg" type="button">
-              See how it works.
+              此按鈕尚未安排功能
             </button>
           </div>
         </div>
@@ -22,14 +25,18 @@ const HomeComponent = () => {
         <div className="row align-items-md-stretch">
           <div className="col-md-6">
             <div className="h-100 p-5 text-white bg-dark rounded-3">
-              <h2>As a student</h2>
+              <h2>As a Student</h2>
               <p>
-                Students can register in courses they like. This website is for
-                practice purpose only, so please do not provide any personal
-                information, such as credit card numbers.
+                學生可以註冊課程, 尚未實作購買的功能
+                由於只是一個作品展示的課程, 請不要提供任何個人訊息
+                以下提供一個測試用的帳號可直接登入
+                <br />
+                email:test1@gmail.com
+                <br />
+                password:123456
               </p>
               <button className="btn btn-outline-light" type="button">
-                Login or Register Now
+                登入或註冊
               </button>
             </div>
           </div>
@@ -37,21 +44,20 @@ const HomeComponent = () => {
             <div className="h-100 p-5 bg-light border rounded-3">
               <h2>As an Instructor</h2>
               <p>
-                You can become an instructor by registering as one, and start
-                making online courses. This website is for practice purpose
-                only, so please do not provide any personal information, such as
-                credit card numbers.
+                instrictor可以註冊課程, 由於只是一個作品展示的課程, 請不要提供任何個人訊息
+                以下提供一個測試用的帳號可直接登入
+                <br />
+                <br />
+                email:god1456920@gmail.com 
+                <br />
+                password:123456
               </p>
               <button className="btn btn-outline-secondary" type="button">
-                Login or Register Now
+                登入或註冊
               </button>
             </div>
           </div>
-        </div>
-
-        <footer className="pt-3 mt-4 text-muted border-top">
-          &copy; 2024 
-        </footer>
+        </div>        
       </div>
     </main>
   )
