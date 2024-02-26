@@ -1,7 +1,7 @@
 作品展示 : http://18.183.45.45/
 
 使用技術:
-  1. JavaScript、espress.js、React.js、Atlas MongeDB
+  1. JavaScript、express.js、React.js、Atlas MongeDB
   2. 使用EC2, 並且利用Nginx架設 web server
   3. 暫無使用域名打算
 
