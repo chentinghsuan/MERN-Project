@@ -17,7 +17,9 @@ function App(){
       <NavComponent currentUser={currentUser} 
       setCurrentUser={setCurrentUser}/>
       <Routes>
-        <Route path="/" element={<HomeComponent />} />
+        <Route path="/" element={<HomeComponent 
+                              currentUser={currentUser}
+                              setCurrentUser={setCurrentUser}/>} />
         <Route path="/register" element={<RegisterComponent />} />
         <Route path="/login" element={<LoginComponent 
                               currentUser={currentUser}

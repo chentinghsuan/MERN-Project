@@ -1,5 +1,5 @@
 import React , {useState} from 'react'
-import { useNavigate } from 'react-router-dom';
+import { useNavigate, Link } from 'react-router-dom';
 import AuthService from '../services/auth.service';
 
 const RegisterComponent = () => {
@@ -64,9 +64,12 @@ const RegisterComponent = () => {
                 </select>
             </div>
             <br />
-            <button onClick={handleRegister} className="btn btn-primary">
+            <button onClick={handleRegister} className="btn btn-primary btn-block" >
               <span>Register</span>
             </button>
+            <Link className="btn btn-primary btn-block" to="/login">
+              Login
+            </Link>
           </div>
         </div>
       );  

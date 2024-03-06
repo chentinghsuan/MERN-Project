@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router";
 import AuthService from '../services/auth.service';
+import {Link} from "react-router-dom"
 
 const LoginComponent = (props) => {
   let {currentUser, setCurrentUser} = props;
@@ -67,6 +68,11 @@ const LoginComponent = (props) => {
           <button onClick={handleLogin} className="btn btn-primary btn-block">
             <span>Login</span>
           </button>
+        </div>
+        <div>
+          <Link className="btn btn-primary btn-block" to="/register">
+            還沒有帳號
+          </Link>
         </div>
       </div>
       
